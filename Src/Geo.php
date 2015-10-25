@@ -59,15 +59,19 @@ class Geo {
 	/** Get the most popular artists on last.fm by country.
 	 *
 	 * @param	string	country		A country name, as defined by the ISO 3166-1 country names standard. (Required)
+	 * @param 	integer $page 		Specify the result page (optional)
+	 * @param 	integer $limit 		Limit the number of results to be fetches (Optional)
 	 * @return	array				An array of Artist objects.
 	 *
 	 * @static
 	 * @access	public
 	 * @throws	Error
 	 */
-	public static function getTopArtists($country){
+	public static function getTopArtists($country, $page = 1, $limit = 36){
 		$xml = CallerFactory::getDefaultCaller()->call('geo.getTopArtists', array(
-			'country' => $country
+			'country' => $country,
+			'page' => $page,
+			'limit' => $limit
 		));
 
 		$artists = array();
@@ -82,6 +86,8 @@ class Geo {
 	/** Get the most popular tracks on last.fm by country.
 	 *
 	 * @param	string	country		A country name, as defined by the ISO 3166-1 country names standard. (Required)
+	 * @param 	integer $page 		Specify the result page (optional)
+	 * @param 	integer $limit 		Limit the number of results to be fetches (Optional)
 	 * @param	string	location	A metro name, to fetch the charts for (must be within the country specified). (Optional)
 	 * @return	array				An array of Track objects.
 	 *
@@ -89,10 +95,12 @@ class Geo {
 	 * @access	public
 	 * @throws	Error
 	 */
-	public static function getTopTracks($country, $location = null){
+	public static function getTopTracks($country, $page = 1, $limit = 36, $location = null){
 		$xml = CallerFactory::getDefaultCaller()->call('geo.getTopTracks', array(
 			'country'  => $country,
-			'location' => $location
+			'location' => $location,
+			'page' => $page,
+			'limit' => $limit
 		));
 
 		$tracks = array();
@@ -104,5 +112,3 @@ class Geo {
 		return $tracks;
 	}
 }
-
-
