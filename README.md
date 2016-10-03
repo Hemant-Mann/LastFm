@@ -1,6 +1,6 @@
-# PHP last.fm API
+# PHP last.fm API #
 
-## Basic Usage
+## Basic Usage ##
 ```php
 <?php
 require "autoloader.php";
