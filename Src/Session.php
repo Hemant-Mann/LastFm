@@ -7,7 +7,7 @@ use LastFm\Src\Session as Session;
 /** Stores information of a last.fm session.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Session {

@@ -11,7 +11,7 @@ use LastFm\Src\Venue as Venue;
 /** Represents an event and provides different methods to query event information.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Event {

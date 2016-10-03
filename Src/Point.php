@@ -4,7 +4,7 @@ namespace LastFm\Src;
 /** Represents a geographical coordinate (latitude and longitude).
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Point {

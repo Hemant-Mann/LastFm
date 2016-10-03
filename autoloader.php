@@ -3,7 +3,7 @@
 /** Autoloads PHP last.fm API classes
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 define("LIB_PATH", dirname(dirname(__FILE__)));

@@ -7,7 +7,7 @@ use LastFm\Src\Playlist as Playlist;
  * Represents a radio and provides different methods to work with radio.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Radio {

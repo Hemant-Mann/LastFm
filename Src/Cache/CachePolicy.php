@@ -4,7 +4,7 @@ namespace LastFm\Src\Cache;
 /** A cache policy.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 interface CachePolicy {

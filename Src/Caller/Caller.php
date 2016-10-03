@@ -6,7 +6,7 @@ use LastFm\Src\Auth as Auth;
 /** Calls API methods using REST requests.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 abstract class Caller {

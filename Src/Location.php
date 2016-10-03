@@ -8,7 +8,7 @@ use LastFm\Src\Point as Point;
 /** Represents a geographical location (address, coordinate, timezone).
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Location {

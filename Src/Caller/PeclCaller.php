@@ -10,7 +10,7 @@ use LastFm\Src\Error as Error;
 /** Calls API methods using REST requests using PECL HTTP.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 final class PeclCaller extends Caller {

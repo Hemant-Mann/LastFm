@@ -7,7 +7,7 @@ use LastFm\Src\Media as Media;
 /** Provides utility methods to convert variables to a specified type.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Util {

@@ -9,7 +9,7 @@ use LastFm\Src\Track as Track;
 /** Represents a playlist and provides different methods to query playlist information.
  *
  * @package php-lastfm-api
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version 1.0
  */
 class Playlist {

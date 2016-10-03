@@ -5,7 +5,7 @@ use LastFm\Src\Cache\CachePolicy as CachePolicy;
 /** A cache policy.
  *
  * @package php-lastfm-api
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version 1.0
  */
 final class DefaultCachePolicy implements CachePolicy {

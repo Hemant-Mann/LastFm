@@ -8,7 +8,7 @@ use LastFm\Src\Error as Error;
 /** Calls API methods using REST requests using cURL.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 final class CurlCaller extends Caller {

@@ -11,7 +11,7 @@ use LastFm\Src\Track as Track;
 /** Provides different methods to query geo based information.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Geo {

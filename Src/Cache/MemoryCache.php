@@ -5,7 +5,7 @@ use LastFm\Src\Cache\Cache as Cache;
 /** A memory cache.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 final class MemoryCache extends Cache {

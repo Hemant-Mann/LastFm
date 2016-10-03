@@ -10,7 +10,7 @@ use LastFm\Src\Artist as Artist;
 /** Provides different methods to query user music library information.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Library {

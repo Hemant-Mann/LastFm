@@ -5,7 +5,7 @@ use LastFm\Src\Cache\DefaultCachePolicy as DefaultCachePolicy;
 /** A cache.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 abstract class Cache {

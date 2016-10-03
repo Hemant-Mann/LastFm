@@ -10,7 +10,7 @@ use LastFm\Src\Util as Util;
 /** Calls API methods using REST requests using PHP sockets.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 final class SocketCaller extends Caller {

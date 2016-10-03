@@ -6,7 +6,7 @@ use LastFm\Src\Media as Media;
 /** Represents some kind of media and provides common information.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class Media {

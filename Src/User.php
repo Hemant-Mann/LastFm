@@ -16,7 +16,7 @@ use LastFm\Src\Tag as Tag;
 /** Represents a user and provides different methods to query user information.
  *
  * @package	LastFm API
- * @author Hemant Mann <hemant.mann121@gmail.com>
+ * @author Hemant Mann 
  * @version	1.0
  */
 class User extends Media {
